@@ -2,8 +2,8 @@
 
 // DLL version information.
 VS_VERSION_INFO    VERSIONINFO
-FILEVERSION        1,0,0,0
-PRODUCTVERSION     1,0,0,0
+FILEVERSION        1,1,0,0
+PRODUCTVERSION     1,1,0,0
 FILEFLAGSMASK      VS_FFI_FILEFLAGSMASK
 #ifdef _DEBUG
   FILEFLAGS        VS_FF_DEBUG | VS_FF_PRERELEASE
@@ -20,12 +20,12 @@ BEGIN
     BEGIN
       VALUE "CompanyName", "Lab 313"
       VALUE "FileDescription", "Factor5 LZ Compression"
-      VALUE "FileVersion", "1.0.0.0"
+      VALUE "FileVersion", "1.1.0.0"
       VALUE "InternalName", "FACT5LZ"
       VALUE "LegalCopyright", "©2016 Lab 313"
       VALUE "OriginalFilename", "FACT5LZ.dll"
       VALUE "ProductName", "Factor5 LZ Compression"
-      VALUE "ProductVersion", "1.0.0.0"
+      VALUE "ProductVersion", "1.1.0.0"
     END
   END
   BLOCK "VarFileInfo"

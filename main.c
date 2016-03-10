@@ -173,7 +173,7 @@ int ADDCALL compressed_size(byte *input)
 	return readoff;
 }
 
-bool find_matches(byte *input, int readoff, int size, ushort *reps, int *from, byte ver)
+int find_matches(byte *input, int readoff, int size, ushort *reps, int *from, byte ver)
 {
 	ushort len = 0;
 	int pos = 0;
@@ -237,7 +237,7 @@ int do_compress(byte *input, byte *output, int size, byte ver)
 			write_byte(output, &writeoff, b);
 		}
 
-		return size;
+		return writeoff;
 	}
 
 	while (readoff < size)
